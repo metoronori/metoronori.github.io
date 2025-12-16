@@ -26,3 +26,13 @@ a:hover {
 ul {
   padding-left: 1.2em;
 }
+
+.container {
+  max-width: 640px;   /* 横幅の上限 */
+  margin-left: 100px; /* 左から少し離す */
+  margin-top: 80px;   /* ← 上からの余白 */
+}
+@media (max-width: 700px) {
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
