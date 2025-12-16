@@ -47,8 +47,10 @@ body {
   font-size: 1rem;
 }
 
-.nav {
+.container .nav {
   display: flex !important;
   gap: 12rem !important;
-  outline: 2px solid #FE4A49;
+  border: 4px solid #FE4A49 !important;
+  background: rgba(254, 74, 73, 0.15) !important;
+  padding: 8px !important;
 }
