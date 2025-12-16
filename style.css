@@ -12,7 +12,7 @@ body {
   color: var(--text);
   font-family: "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   line-height: 1.7;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 a {
