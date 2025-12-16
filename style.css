@@ -2,7 +2,7 @@
 
 :root {
   --bg: #D6CECA;
-  --text: #1a1a1a;
+  --text: #001427;
 }
 
 body {
@@ -36,3 +36,8 @@ ul {
   .container {
     margin-left: 20px;
     margin-right: 20px;
+
+.mark {
+  color: #FE4A49;
+  margin-left: 0.3em;
+}
