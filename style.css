@@ -27,6 +27,10 @@ ul {
   padding-left: 1.2em;
 }
 
+body {
+  letter-spacing: 0.02em;
+}
+
 .container {
   max-width: 640px;   /* 横幅の上限 */
   margin-left: 100px; /* 左から少し離す */
