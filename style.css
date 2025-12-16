@@ -41,14 +41,14 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 
-    .nav {
-  display: flex;
-  gap: 10em;          /* ← 間隔をここで調整 */
-  margin-top: 1.2em;
-}
-
 .nav a {
   text-decoration: none;
   color: inherit;
   font-size: 1rem;
+}
+
+.nav {
+  display: flex !important;
+  gap: 12rem !important;
+  outline: 2px solid #FE4A49;
 }
