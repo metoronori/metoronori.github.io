@@ -43,7 +43,7 @@ body {
 
     .nav {
   display: flex;
-  gap: 3rem;          /* ← 間隔をここで調整 */
+  gap: 10rem;          /* ← 間隔をここで調整 */
   margin-top: 0.5em;
 }
 
