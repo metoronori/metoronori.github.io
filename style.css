@@ -68,7 +68,7 @@ a:hover {
 
 .footer {
   margin-top: auto;   /* ← これが魔法 */
-  padding-top: 1.5em;
+  padding-top: 1.0em;
   font-size: 0.95rem;
   opacity: 0.9;
 }
