@@ -56,7 +56,7 @@ a:hover {
 
 .divider {
   margin: 1.8em 0 1.8em 0;      /* 上下の余白 */
-  border-top: 1px dotted #7776BC;
+  border-top: 1px dotted #A2D729;
   opacity: 0.7;
   width: 100px;                /* 線の長さ（短めがおすすめ） */
 }
