@@ -28,6 +28,10 @@ a:hover {
   max-width: 640px;
   margin-left: 100px;
   margin-top: 80px;
+
+  min-height: calc(100vh - 80px); /* ← 画面の残り高さを使う */
+  display: flex;                  /* ← 親をflexに */
+  flex-direction: column;         /* ← 縦に積む */
 }
 
 .nav {
