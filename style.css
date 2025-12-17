@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  padding: 48px 20px;
+  padding: 40px 20px;
   background: var(--bg);
   color: var(--text);
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -27,7 +27,7 @@ a:hover {
 .container {
   max-width: 640px;
   margin-left: 100px;
-  margin-top: 80px;
+  margin-top: 60px;
 
   min-height: calc(100vh - 80px); /* ← 画面の残り高さを使う */
   display: flex;                  /* ← 親をflexに */
@@ -68,7 +68,7 @@ a:hover {
 
 .footer {
   margin-top: auto;   /* ← これが魔法 */
-  padding-top: 2.5em;
+  padding-top: 1.5em;
   font-size: 0.95rem;
   opacity: 0.9;
 }
