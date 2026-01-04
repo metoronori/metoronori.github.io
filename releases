@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>releases — Metoronori</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <h2>
+      Metoronori&nbsp;&nbsp;
+      <span style="color:#D1462F;">⚘</span>
+    </h2>
+
+    <div class="nav">
+      <a href="index.html">home</a>
+      <a href="releases.html">releases</a>
+      <a href="shows.html">shows</a>
+      <a href="words.html">words</a>
+    </div>
+
+    <h3 style="margin-top: 2.5em;">releases</h3>
+
+    <!-- example release -->
+    <div style="margin-top: 1.2em;">
+      <div>
+        <strong>Title of Release</strong> (Album, 2026)
+      </div>
+      <div style="margin-top: 0.3em; opacity: 0.85;">
+        Label / Self-released — Digital, Cassette
+      </div>
+      <div style="margin-top: 0.5em;">
+        <a href="#" target="_blank" rel="noopener noreferrer">Listen / Buy</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
