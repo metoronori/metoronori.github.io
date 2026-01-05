@@ -72,3 +72,12 @@ a:hover {
   font-size: 0.95rem;
   opacity: 0.9;
 }
+
+
+.cover {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex: 0 0 auto;
+}
