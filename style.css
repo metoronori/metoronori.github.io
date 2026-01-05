@@ -92,3 +92,9 @@ a:hover {
   margin: 0 0 1.6em 0;   /* 下に少し余白 */
   opacity: 0.9;          /* ほんの少し抑える */
 }
+
+.social a {
+  color: #A2D729;
+  font-size: 0.9em;
+  text-decoration: underline;
+}
