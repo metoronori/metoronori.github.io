@@ -34,6 +34,10 @@ a:hover {
   flex-direction: column;         /* ← 縦に積む */
 }
 
+.releases {
+  font-size: 0.9em;
+}
+
 .nav {
   display: flex;
   gap: 8rem;          /* 好みで 6〜12rem */
