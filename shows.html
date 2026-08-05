@@ -297,36 +297,50 @@
 </section>
 
 <style>
-  .live-item {
+ .live-item {
   align-items: baseline;
   gap: 10px;
 }
-  .live-history { max-width: 980px; }
-  .live-list { list-style: disc;
-  padding-left: 1.2em;
-  margin: 0; }
-}
-  .live-row {
-    font-weight: 500;
-    display: inline-flex; 
-    padding: 6px 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    line-height: 1.1;
-    flex: 1; /* 横幅を全部使う */
-  }
-  .live-row:hover,
-  .live-row:focus-visible {
-    text-decoration: underline;
-    outline: none;
-  }
-  .live-date {
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
-  }
-  .live-sep { padding: 0 6px; opacity: 0.65; }
 
-  .live-row--nolink {
+.live-history {
+  max-width: 980px;
+}
+
+.live-list {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin: 0;
+}
+
+.live-row,
+.live-row:link,
+.live-row:visited {
+  font-weight: 500;
+  display: inline-flex;
+  padding: 6px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  line-height: 1.1;
+  flex: 1;
+}
+
+.live-row:hover,
+.live-row:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+.live-date {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.live-sep {
+  padding: 0 6px;
+  opacity: 0.65;
+}
+
+.live-row--nolink {
   cursor: default;
   text-decoration: none;
 }
