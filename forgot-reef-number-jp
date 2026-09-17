@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>forgot reef number — Metoronori</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .release-page {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 70px 24px 100px;
+      text-align: center;
+      line-height: 1.8;
+    }
+
+    .release-page h1 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin-bottom: 0.3em;
+    }
+
+    .release-date {
+      margin-bottom: 3em;
+      opacity: 0.75;
+    }
+
+    .album-title {
+      font-size: 1.25rem;
+      margin-bottom: 1.2em;
+    }
+
+    .tracklist {
+      display: inline-block;
+      text-align: left;
+      margin: 0 auto 3em;
+      padding-left: 1.5em;
+    }
+
+    .tracklist li {
+      margin-bottom: 0.4em;
+    }
+
+    .credits {
+      margin: 3em 0;
+      font-size: 0.95rem;
+    }
+
+    .credits div {
+      margin-bottom: 0.3em;
+    }
+
+    .order-info {
+      margin-top: 4em;
+      padding-top: 2.5em;
+      border-top: 1px solid rgba(0, 0, 0, 0.18);
+    }
+
+    .order-info p {
+      margin: 0.8em 0;
+    }
+
+    .order-button {
+      display: inline-block;
+      margin: 1.5em 0;
+      padding: 10px 20px;
+      border: 1px solid currentColor;
+      border-radius: 999px;
+      text-decoration: none;
+    }
+
+    .order-button:hover,
+    .order-button:focus-visible {
+      text-decoration: underline;
+    }
+
+    .back-to-top {
+      margin-top: 5em;
+    }
+
+    .back-to-top a {
+      text-decoration: none;
+    }
+
+    .back-to-top a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="release-page">
+
+    <h1>Metoronori — forgot reef number</h1>
+
+    <div class="release-date">
+      2026年10月23日リリース
+    </div>
+
+    <div class="album-title">
+      <strong>forgot reef number</strong>
+    </div>
+
+    <ol class="tracklist">
+      <li>forgot reef number</li>
+
+      <li>
+        夜風・Shellfish Cuisine
+        —
+        <a
+          href="MUSIC_VIDEO_URL"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Music Video
+        </a>
+      </li>
+
+      <li>Pearl? Ptyx?</li>
+      <li>Lights of the Bay</li>
+      <li>Coin in the Sand</li>
+      <li>逃げた分身</li>
+      <li>Hall</li>
+      <li>手の先、どこか</li>
+    </ol>
+
+    <div class="credits">
+      <div>All Music &amp; Lyrics: Hikari Matsuda (Metoronori)</div>
+      <div>Mastering: Amir Shoat</div>
+      <div>Record Sleeve &amp; Lyric Insert Design: Basia Strzeżek</div>
+      <div>Cover Photography: Haruki Matsuda</div>
+      <div>Vinyl + Digital Release by Sair</div>
+    </div>
+
+    <section class="order-info">
+
+      <p>
+        日本国内でLPレコードのお届けをご希望の方は、<br>
+        下記のフォームからご予約注文いただけます。
+      </p>
+
+      <a
+        class="order-button"
+        href="GOOGLE_FORM_URL"
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        ご予約注文フォーム
+      </a>
+
+      <p>
+        1枚 4,200円 ＋ 送料 1,000円
+      </p>
+
+      <p>
+        DLコード付属<br>
+        <span style="opacity: 0.75;">メールで送付予定です。</span>
+      </p>
+
+    </section>
+
+    <p class="back-to-top">
+      <a href="index.html">Back to Top</a>
+    </p>
+
+  </main>
+
+</body>
+</html>
