@@ -55,11 +55,19 @@
       margin-bottom: 0.3em;
     }
 
-    .order-info {
-      margin-top: 4em;
-      padding-top: 2.5em;
-      border-top: 1px solid rgba(0, 0, 0, 0.18);
-    }
+   .order-info {
+  margin-top: 4em;
+  padding-top: 2.5em;
+  position: relative;
+}
+
+.order-info::before {
+  content: "";
+  display: block;
+  width: 33%;
+  border-top: 1px dotted currentColor;
+  margin: 0 auto 2.5em;
+}
 
     .order-info p {
       margin: 0.8em 0;
